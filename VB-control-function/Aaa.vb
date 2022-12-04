@@ -7,3 +7,7 @@
         Debug.WriteLine("fname")
     End Sub
 End Class
+
+Public Class Super
+    Private name As String
+End Class
