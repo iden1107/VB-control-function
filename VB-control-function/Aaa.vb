@@ -3,6 +3,12 @@
         'coop
     End Sub
 
+
+End Class
+
+Public Class Super
+    Private name As String
+
     Public Sub Fname()
         Debug.WriteLine("hoge")
     End Sub
