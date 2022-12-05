@@ -3,7 +3,9 @@ Public Class Form1
 
     End Sub
 
+    Public Sub Fname()
 
+    End Sub
 End Class
 
 Public Class Super
