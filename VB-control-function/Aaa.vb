@@ -13,4 +13,7 @@ End Class
 Public Class SubClass
     Inherits Super
 
+    Public Sub Fname()
+
+    End Sub
 End Class
