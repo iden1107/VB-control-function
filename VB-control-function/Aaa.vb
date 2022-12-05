@@ -3,6 +3,9 @@ Public Class Form1
 
     End Sub
 
+    Public Sub Fname()
+        Debug.WriteLine("hoge")
+    End Sub
 
 End Class
 
