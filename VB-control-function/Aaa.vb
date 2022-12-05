@@ -10,3 +10,7 @@
     '桁数の制御
 
 End Class
+
+Public Class Super
+    Private name As String
+End Class
