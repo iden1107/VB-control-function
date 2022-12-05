@@ -6,3 +6,14 @@ Public Class Form1
 
 End Class
 
+Public Class Super
+    Private name As String
+End Class
+
+Public Class SubClass
+    Inherits Super
+
+    'Public Sub Fname()
+
+    'End Sub
+End Class
