@@ -3,11 +3,6 @@
 
     End Sub
 
-    Public Sub Fname()
-        Debug.WriteLine("fname")
-    End Sub
-
-    '桁数の制御
 
 End Class
 
