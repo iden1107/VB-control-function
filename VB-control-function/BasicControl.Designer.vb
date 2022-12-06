@@ -22,28 +22,56 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(94, 41)
+        Me.Button1.Location = New System.Drawing.Point(51, 116)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "文字変化"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Label1.Location = New System.Drawing.Point(49, 33)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(118, 55)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(51, 162)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "色変化"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(627, 370)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(851, 635)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "Aaa"
+        Me.Text = "BasicControl"
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Button2 As Button
 End Class
