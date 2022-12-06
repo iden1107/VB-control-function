@@ -74,10 +74,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicControl.Designer.vb">
-      <DependentUpon>BasicControl.vb</DependentUpon>
+    <Compile Include="01 BasicControl.Designer.vb">
+      <DependentUpon>01 BasicControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="BasicControl.vb">
+    <Compile Include="01 BasicControl.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -98,8 +98,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="BasicControl.resx">
-      <DependentUpon>BasicControl.vb</DependentUpon>
+    <EmbeddedResource Include="01 BasicControl.resx">
+      <DependentUpon>01 BasicControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
