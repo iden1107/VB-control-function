@@ -36,11 +36,21 @@ Partial Class Form1
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Accept = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Cancel = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(51, 91)
+        Me.Button1.Location = New System.Drawing.Point(8, 98)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -51,7 +61,7 @@ Partial Class Form1
         '
         Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label1.Location = New System.Drawing.Point(49, 33)
+        Me.Label1.Location = New System.Drawing.Point(6, 40)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(118, 55)
         Me.Label1.TabIndex = 1
@@ -59,7 +69,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(51, 120)
+        Me.Button2.Location = New System.Drawing.Point(8, 127)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 2
@@ -70,7 +80,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.Location = New System.Drawing.Point(49, 173)
+        Me.Label2.Location = New System.Drawing.Point(12, 153)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(40, 14)
         Me.Label2.TabIndex = 3
@@ -80,7 +90,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Location = New System.Drawing.Point(51, 201)
+        Me.Label3.Location = New System.Drawing.Point(12, 181)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(40, 14)
         Me.Label3.TabIndex = 4
@@ -90,19 +100,19 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Label4.Font = New System.Drawing.Font("ＭＳ 明朝", 18.0!, CType((((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+        Me.Label4.Font = New System.Drawing.Font("ＭＳ 明朝", 14.25!, CType((((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline) _
                 Or System.Drawing.FontStyle.Strikeout), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label4.Location = New System.Drawing.Point(49, 227)
+        Me.Label4.Location = New System.Drawing.Point(12, 201)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(88, 24)
+        Me.Label4.Size = New System.Drawing.Size(75, 19)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Label4"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(47, 296)
+        Me.Label5.Location = New System.Drawing.Point(14, 257)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(38, 12)
         Me.Label5.TabIndex = 6
@@ -110,7 +120,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(49, 311)
+        Me.Button3.Location = New System.Drawing.Point(12, 272)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 7
@@ -120,7 +130,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.Location = New System.Drawing.Point(47, 377)
+        Me.Label6.Location = New System.Drawing.Point(8, 323)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(219, 101)
         Me.Label6.TabIndex = 8
@@ -131,7 +141,7 @@ Partial Class Form1
         '
         Me.Label7.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Label7.Image = CType(resources.GetObject("Label7.Image"), System.Drawing.Image)
-        Me.Label7.Location = New System.Drawing.Point(449, 31)
+        Me.Label7.Location = New System.Drawing.Point(13, 443)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(114, 112)
         Me.Label7.TabIndex = 9
@@ -161,12 +171,116 @@ Partial Class Form1
         Me.Label10.Size = New System.Drawing.Size(0, 12)
         Me.Label10.TabIndex = 14
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label11.Location = New System.Drawing.Point(14, 9)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(97, 19)
+        Me.Label11.TabIndex = 15
+        Me.Label11.Text = "1-1 ラベル"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label12.Location = New System.Drawing.Point(12, 645)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(90, 19)
+        Me.Label12.TabIndex = 16
+        Me.Label12.Text = "1-2 リンク"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(16, 680)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(43, 12)
+        Me.LinkLabel1.TabIndex = 17
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "グーグル"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label13.Location = New System.Drawing.Point(12, 737)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(95, 19)
+        Me.Label13.TabIndex = 18
+        Me.Label13.Text = "1-3 ボタン"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(12, 768)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 19
+        Me.Button4.Text = "Alt + A(&A)"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Accept
+        '
+        Me.Accept.Location = New System.Drawing.Point(8, 869)
+        Me.Accept.Name = "Accept"
+        Me.Accept.Size = New System.Drawing.Size(116, 25)
+        Me.Accept.TabIndex = 20
+        Me.Accept.Text = "Accept(Enter)"
+        Me.Accept.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(7, 844)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 19)
+        Me.TextBox1.TabIndex = 21
+        '
+        'Cancel
+        '
+        Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Cancel.Location = New System.Drawing.Point(7, 900)
+        Me.Cancel.Name = "Cancel"
+        Me.Cancel.Size = New System.Drawing.Size(116, 25)
+        Me.Cancel.TabIndex = 22
+        Me.Cancel.Text = "Cancel(Esc)"
+        Me.Cancel.UseVisualStyleBackColor = True
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(262, 12)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 19)
+        Me.TextBox2.TabIndex = 23
+        '
+        'Button5
+        '
+        Me.Button5.Enabled = False
+        Me.Button5.Location = New System.Drawing.Point(262, 40)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 24
+        Me.Button5.Text = "Button5"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form1
         '
+        Me.AcceptButton = Me.Accept
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(709, 533)
+        Me.CancelButton = Me.Cancel
+        Me.ClientSize = New System.Drawing.Size(1853, 986)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Cancel)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Accept)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -201,4 +315,14 @@ Partial Class Form1
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Accept As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Cancel As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button5 As Button
 End Class
