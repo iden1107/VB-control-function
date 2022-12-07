@@ -52,11 +52,12 @@ Partial Class Form1
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(8, 98)
+        Me.Button1.Location = New System.Drawing.Point(20, 190)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
@@ -67,7 +68,7 @@ Partial Class Form1
         '
         Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Label1.Location = New System.Drawing.Point(6, 40)
+        Me.Label1.Location = New System.Drawing.Point(18, 117)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(118, 55)
         Me.Label1.TabIndex = 1
@@ -75,7 +76,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(8, 127)
+        Me.Button2.Location = New System.Drawing.Point(101, 190)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 2
@@ -86,7 +87,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.Location = New System.Drawing.Point(12, 153)
+        Me.Label2.Location = New System.Drawing.Point(16, 225)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(40, 14)
         Me.Label2.TabIndex = 3
@@ -96,7 +97,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Location = New System.Drawing.Point(12, 181)
+        Me.Label3.Location = New System.Drawing.Point(62, 225)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(40, 14)
         Me.Label3.TabIndex = 4
@@ -109,7 +110,7 @@ Partial Class Form1
         Me.Label4.Font = New System.Drawing.Font("ＭＳ 明朝", 14.25!, CType((((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline) _
                 Or System.Drawing.FontStyle.Strikeout), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label4.Location = New System.Drawing.Point(12, 201)
+        Me.Label4.Location = New System.Drawing.Point(8, 250)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(75, 19)
         Me.Label4.TabIndex = 5
@@ -118,7 +119,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(14, 257)
+        Me.Label5.Location = New System.Drawing.Point(14, 276)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(38, 12)
         Me.Label5.TabIndex = 6
@@ -126,7 +127,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 272)
+        Me.Button3.Location = New System.Drawing.Point(16, 313)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 7
@@ -136,7 +137,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.Location = New System.Drawing.Point(8, 323)
+        Me.Label6.Location = New System.Drawing.Point(16, 358)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(219, 101)
         Me.Label6.TabIndex = 8
@@ -147,7 +148,7 @@ Partial Class Form1
         '
         Me.Label7.Font = New System.Drawing.Font("MS UI Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Label7.Image = CType(resources.GetObject("Label7.Image"), System.Drawing.Image)
-        Me.Label7.Location = New System.Drawing.Point(13, 443)
+        Me.Label7.Location = New System.Drawing.Point(15, 490)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(114, 112)
         Me.Label7.TabIndex = 9
@@ -181,7 +182,7 @@ Partial Class Form1
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label11.Location = New System.Drawing.Point(14, 9)
+        Me.Label11.Location = New System.Drawing.Point(16, 85)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(97, 19)
         Me.Label11.TabIndex = 15
@@ -211,7 +212,7 @@ Partial Class Form1
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label13.Location = New System.Drawing.Point(12, 737)
+        Me.Label13.Location = New System.Drawing.Point(279, 85)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(95, 19)
         Me.Label13.TabIndex = 18
@@ -219,7 +220,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(12, 768)
+        Me.Button4.Location = New System.Drawing.Point(670, 103)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 19
@@ -228,7 +229,7 @@ Partial Class Form1
         '
         'Accept
         '
-        Me.Accept.Location = New System.Drawing.Point(8, 869)
+        Me.Accept.Location = New System.Drawing.Point(395, 104)
         Me.Accept.Name = "Accept"
         Me.Accept.Size = New System.Drawing.Size(116, 25)
         Me.Accept.TabIndex = 20
@@ -237,7 +238,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(7, 844)
+        Me.TextBox1.Location = New System.Drawing.Point(274, 107)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 19)
         Me.TextBox1.TabIndex = 21
@@ -245,7 +246,7 @@ Partial Class Form1
         'Cancel
         '
         Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel.Location = New System.Drawing.Point(7, 900)
+        Me.Cancel.Location = New System.Drawing.Point(530, 101)
         Me.Cancel.Name = "Cancel"
         Me.Cancel.Size = New System.Drawing.Size(116, 25)
         Me.Cancel.TabIndex = 22
@@ -254,7 +255,7 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(262, 12)
+        Me.TextBox2.Location = New System.Drawing.Point(283, 192)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 19)
         Me.TextBox2.TabIndex = 23
@@ -262,7 +263,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Enabled = False
-        Me.Button5.Location = New System.Drawing.Point(262, 40)
+        Me.Button5.Location = New System.Drawing.Point(395, 192)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 24
@@ -273,7 +274,7 @@ Partial Class Form1
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label14.Location = New System.Drawing.Point(265, 102)
+        Me.Label14.Location = New System.Drawing.Point(279, 257)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(110, 19)
         Me.Label14.TabIndex = 25
@@ -282,7 +283,7 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(269, 137)
+        Me.Label15.Location = New System.Drawing.Point(281, 298)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(27, 12)
         Me.Label15.TabIndex = 26
@@ -299,7 +300,7 @@ Partial Class Form1
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Checked = True
         Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox1.Location = New System.Drawing.Point(264, 162)
+        Me.CheckBox1.Location = New System.Drawing.Point(427, 293)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(73, 22)
         Me.CheckBox1.TabIndex = 28
@@ -308,12 +309,22 @@ Partial Class Form1
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(408, 7)
+        Me.Button6.Location = New System.Drawing.Point(20, 12)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(118, 24)
         Me.Button6.TabIndex = 29
         Me.Button6.Text = "02 InputControl"
         Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label16.Location = New System.Drawing.Point(279, 164)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(171, 19)
+        Me.Label16.TabIndex = 30
+        Me.Label16.Text = "1-4 テキストボックス"
         '
         'Form1
         '
@@ -322,7 +333,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.CancelButton = Me.Cancel
-        Me.ClientSize = New System.Drawing.Size(789, 942)
+        Me.ClientSize = New System.Drawing.Size(836, 698)
+        Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label15)
@@ -386,4 +398,5 @@ Partial Class Form1
     Friend WithEvents Timer1 As Timer
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Button6 As Button
+    Friend WithEvents Label16 As Label
 End Class
