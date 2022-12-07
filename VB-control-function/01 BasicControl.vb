@@ -53,6 +53,23 @@ Public Class Form1
             Button5.Enabled = True
         End If
     End Sub
+
+    '1-5 タイマー
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label15.Text = Now
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Label15.Text = Now
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            Timer1.Start()
+        Else
+            Timer1.Stop()
+        End If
+    End Sub
 End Class
 
 

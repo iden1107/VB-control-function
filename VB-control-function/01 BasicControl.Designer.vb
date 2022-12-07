@@ -22,6 +22,7 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -46,6 +47,10 @@ Partial Class Form1
         Me.Cancel = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -263,6 +268,44 @@ Partial Class Form1
         Me.Button5.Text = "Button5"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("MS UI Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label14.Location = New System.Drawing.Point(265, 102)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(110, 19)
+        Me.Label14.TabIndex = 25
+        Me.Label14.Text = "1-6 タイマー"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(269, 137)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(27, 12)
+        Me.Label15.TabIndex = 26
+        Me.Label15.Text = "Now"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.Appearance = System.Windows.Forms.Appearance.Button
+        Me.CheckBox1.AutoEllipsis = True
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(264, 162)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(73, 22)
+        Me.CheckBox1.TabIndex = 28
+        Me.CheckBox1.Text = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AcceptButton = Me.Accept
@@ -271,6 +314,9 @@ Partial Class Form1
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.CancelButton = Me.Cancel
         Me.ClientSize = New System.Drawing.Size(1853, 986)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Cancel)
@@ -325,4 +371,8 @@ Partial Class Form1
     Friend WithEvents Cancel As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button5 As Button
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
