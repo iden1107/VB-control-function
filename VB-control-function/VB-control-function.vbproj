@@ -80,6 +80,12 @@
     <Compile Include="01 BasicControl.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="02 InputControl.Designer.vb">
+      <DependentUpon>02 InputControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02 InputControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,6 +106,9 @@
   <ItemGroup>
     <EmbeddedResource Include="01 BasicControl.resx">
       <DependentUpon>01 BasicControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02 InputControl.resx">
+      <DependentUpon>02 InputControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

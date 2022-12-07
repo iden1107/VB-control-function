@@ -51,6 +51,7 @@ Partial Class Form1
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -295,7 +296,6 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.Appearance = System.Windows.Forms.Appearance.Button
-        Me.CheckBox1.AutoEllipsis = True
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Checked = True
         Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
@@ -306,6 +306,15 @@ Partial Class Form1
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(408, 7)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(118, 24)
+        Me.Button6.TabIndex = 29
+        Me.Button6.Text = "02 InputControl"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AcceptButton = Me.Accept
@@ -313,7 +322,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.CancelButton = Me.Cancel
-        Me.ClientSize = New System.Drawing.Size(1853, 986)
+        Me.ClientSize = New System.Drawing.Size(789, 942)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
@@ -375,4 +385,5 @@ Partial Class Form1
     Friend WithEvents Label15 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Button6 As Button
 End Class

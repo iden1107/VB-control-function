@@ -1,3 +1,5 @@
+Imports System.Windows
+
 Public Class Form1
     '1-1 ƒ‰ƒxƒ‹
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -69,6 +71,11 @@ Public Class Form1
         Else
             Timer1.Stop()
         End If
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim f = New _02_InputControl
+        f.Show()
     End Sub
 End Class
 
