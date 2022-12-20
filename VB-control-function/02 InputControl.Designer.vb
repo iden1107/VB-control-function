@@ -29,6 +29,8 @@ Partial Class _02_InputControl
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'RichTextBox1
@@ -94,11 +96,19 @@ Partial Class _02_InputControl
         Me.Button5.Text = "読み込み"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(57, 334)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 19)
+        Me.NumericUpDown1.TabIndex = 22
+        '
         '_02_InputControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(883, 611)
+        Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -108,6 +118,7 @@ Partial Class _02_InputControl
         Me.Controls.Add(Me.RichTextBox1)
         Me.Name = "_02_InputControl"
         Me.Text = "_02_InputControl"
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -120,4 +131,5 @@ Partial Class _02_InputControl
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents NumericUpDown1 As NumericUpDown
 End Class

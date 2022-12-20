@@ -27,4 +27,8 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         RichTextBox1.LoadFile("C:\Users\user\Downloads\sample.rtf", RichTextBoxStreamType.RichText)
     End Sub
+
+    Private Sub _02_InputControl_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        NumericUpDown1.CreateAccessibilityInstance()
+    End Sub
 End Class
